@@ -1,0 +1,68 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+#container {
+	
+}
+
+p {
+	font-size:3em;
+}
+
+.fighter {
+	font-size:3em;
+}
+
+.down {
+	position:absolute;
+	bottom:50px;
+}
+
+.cuz {
+	position:absolute;
+	right: 950px;
+}
+
+.you {
+	position:absolute;
+	right:867px;
+}
+
+.know {
+	position:absolute;
+	right:750px;
+}
+
+.Im {
+	position:absolute;
+	right:680px;
+}
+
+.a {
+	position:absolute;
+	right:650px;
+}
+
+.fighter {
+	position:absolute;
+	right:250px;
+}
