@@ -35,6 +35,7 @@ p {
 .down {
 	position:absolute;
 	bottom:50px;
+	left:300px;
 }
 
 .cuz {
