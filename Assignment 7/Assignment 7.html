@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>What to do?</title>
+	
+	<link rel="stylesheet" href="css/5 style.css">
+
+</head>
+
+<form>
+
+	<head>
+<script>
+
+function Something() {
+	var answers = [
+
+	"Take a nap!",
+	"Watch some Youtube?",
+	"How should I know?",
+	"Draw something!",
+	"Make some food.",
+	"Eat a snack!",
+	"Workout!",
+	"Take a break.",
+	"Go for a nice walk!",
+	"Play some games?",
+	"Hang out with friends!"
+
+	];
+
+var answers = answers[Math.floor(Math.random() * answers.length)];
+document.getElementById('MessageResults').innerHTML = answers;
+
+}//closes Something
+
+	</script>
+	
+</head>
+</form>
+
+<body>
+
+  <div id="container">
+
+<form>
+<div id="Question"><p>What Should I Do Now?</p></div>
+
+</form>
+
+<form>
+
+<input type="text" id="AskBox">
+<input type="button" id="Answer" onclick="Something()" value="Submit">
+</form>
+
+<div class="Results">
+	<p id="MessageResults"></p>
+</div>
+
+  </div><!-- close "container" -->
+  
+
+</body>
+	
+</html> 

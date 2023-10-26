@@ -1,0 +1,51 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+
+	background:#3e7b7d;
+	font-family:Verdana;
+	text-align:center;
+	margin:auto;
+}
+
+
+#container {
+	margin:auto;
+	text-align:center;
+	font-size:2em;
+	margin-top:10px;
+	padding:0.75em;
+}
+
+#Question {
+	display: block;
+	margin:auto;
+	margin-top:10px;
+	line-height:200px;
+	text-align:center;
+	background-color:#234970;
+	color:white;
+	height:190px;
+	width:450px; 
+}
+
+#Results {
+	text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
