@@ -1,0 +1,156 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+body {
+	background: #ffe380;
+	color:#7d0cad;
+	font-family: Geneva;
+}
+
+
+
+#quotebox {
+	margin:auto;
+	padding:0.75em;
+	height:700px;
+	border:2px solid black;
+}
+
+#Quote {
+	background:#fad8b4;
+	padding:10px;
+	float:left;
+	width:650px;
+}
+
+#Quote2 {
+	background:#ae6bf2;
+	padding:10px;
+	float:right;
+	width:650px;
+}
+
+#Quote3 {
+	background:#ffb300;
+	color:white;
+	padding:10px;
+	float:left;
+	width:650px;
+}
+
+#Quote4 {
+	background:#ffadf8;
+	color:#8a0005;
+	padding:10px;
+	float:right;
+	width:650px;
+}
+
+#Quote5 {
+	background:#6900ba;
+	color:#00eaff;
+	padding:10px;
+	float:left;
+	width:650px;
+}
+
+#Quote6 {
+	background:#ffd500;
+	color:#573700;
+	padding:10px;
+	float:right;
+	width:650px;
+}
+
+#aboutbox {
+	margin:auto;
+	margin-top:20px;
+	width:1000px;
+	border:1px solid black;
+	padding:0.75em;
+	color:#573700;
+}
+
+a:hover {
+	color:#25a2cc;
+}
+
+a.nav {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:20px;
+}
+
+figure {
+	margin:0px;
+}
+
+figure img {
+	height:400px;
+	margin:auto;
+	padding-top:10px;
+	padding-left:400px;
+}
+
+figcaption {
+	padding-left:400px;
+}
+
+footer {
+	padding-left:400px;
+}
+
+div.nav {
+	margin:auto;
+	padding-top:25px;
+	height:50px;
+	text-align:center;
+}
+
+div.line {
+	background-color:white;
+}
+
+div.row {
+	margin:auto;
+	background-color:#fff6e6;
+	width:700px;
+	height:450px;
+	border-style:solid;
+}
+
+div.Anime {
+	width:40px;
+	height:100%;
+	float:left;
+}
+
+div.Cartoon {
+	width:40px;
+	height:100%;
+	float:left;
+}
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+h4 {
+	padding-top:185px;
+	font-size:1.5em;
+}
